@@ -18,4 +18,4 @@ Io propongo:
 ## How to run the code  
 In order to run the code you should upload the dataset in ____ 
 
-
+RICCARDO PER FAVORE QUANDO FAI LA COSA DELLE PATH CONTROLLA CHE RINOMINANDO I FILE E FOLDER NO HO FATTO CASINO GRAZIE!
