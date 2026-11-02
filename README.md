@@ -11,9 +11,9 @@ Io propongo:
     - README
     - utils.py that is used in the notebooks  
     - folder "GroupAI_code" that contains:  
-        - part1_preprocessing where the code relative to the structural and functional preprocessing can be find  
-        - part1_GLM where the code relative to the GLM question of part 1 can be find  
-        - PCA where the code relative to the second part (PCA version) can be find
+        - 01_preprocessing where the code relative to the structural and functional preprocessing can be find  
+        - 02_GLM where the code relative to the GLM question of part 1 can be find  
+        - 03_PCA where the code relative to the second part (PCA version) can be find 
 
 ## How to run the code  
 In order to run the code you should upload the dataset in ____ 
