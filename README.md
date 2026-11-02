@@ -19,3 +19,22 @@ Io propongo:
 In order to run the code you should upload the dataset in ____ 
 
 RICCARDO PER FAVORE QUANDO FAI LA COSA DELLE PATH CONTROLLA CHE RINOMINANDO I FILE E FOLDER NO HO FATTO CASINO GRAZIE!
+
+
+## modifiche che farei:  --> PER LUCA 
+- levare "path per luca che sono pigro" da GLM code  
+- inserire in GLM la versione corretta per i path come aveva proposto Riccardo  
+- mettere commento "Verifica che la cartella NSSP sia condivisa nella VM" in inglese o togliere proprio se non più necessario  
+- Mettere in generale i commenti di GLM in inglese (tipo "Mettiamo i noi delle variabili usati nelle cartelle successive) 
+- QUESTO è giusto: ma lo commenterei così:
+    Search recursively for T1w image
+t1_files = glob.glob(
+    os.path.join(data_dir, "**", "*T1*.nii.gz"),
+    recursive=True
+)  
+- sistemare fmri_path
+- sistemare i commenti su registration --> toglierei tutta la parte che dice "trying two different modality costs" e metti subito la parte normcorr perché è quello che abbiamo visto nella parte di preprocesisng quindi è inutile ripeterlo anche qui direi  
+    - quindi magari fai solo affine registration con normcorr e poi quella non lineare con FNIRT e così alla fine ottieni quello che dicevamo essere la scelta migliore nella parte 1 del preprocessing  
+- anche tutta la parte del motion correction la semplidicherei molto --> togli subito volume senza fare tutti i grafici etc --> già spiegato nella parte 1 
+- quindi io scriverei: "preprocessing data as done in part 1" 
+
