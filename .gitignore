@@ -11,3 +11,11 @@ __pycache__/
 # Generated results
 /outputs/**
 !/outputs/.gitkeep
+
+# LaTeX report
+/report/
+
+# Local exploration notebooks
+/guidelines/**
+/cantiere/**
+/Lezioni/**
